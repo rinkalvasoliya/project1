@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">PreRoz</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To Text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Web Design& <br><span>Development</span> </br>Course</h1>
+
+            <p class="parse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, cumque. `<br>Sit iure nulla,
+                praesentium possimus nesciunt quis, <br> unde optio natus voluptate vero a <br>deleniti reiciendis
+                minima ipsam eligendi tempore! Nesciunt!</p>
+
+            <button class="cn"> <a href="#"> JOIN US</a></button>
+            <!-- <form action="" class="form"> -->
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="btnn"><a href="#">Login</a></button>
+
+                <p class="link">Don't have an account <br>
+                    <a href="#">Sign up </a> here</a>
+                </p>
+                <p class="liw"> Log in with</p>
+
+                <div class="icons">
+                    <a href="#">
+                        <iconify-icon icon="icomoon-free:facebook"></iconify-icon>
+                    </a>
+                    <a href="#">
+                        <iconify-icon icon="fa:instagram"></iconify-icon>
+                    </a>
+                    <a href="#">
+                        <iconify-icon icon="arcticons:twitter"></iconify-icon>
+                    </a>
+                    <a href="#">
+                        <iconify-icon icon="ant-design:google-circle-filled"></iconify-icon>
+                    </a>
+                    <a href="#">
+                        <iconify-icon icon="mdi:skype"></iconify-icon>
+                    </a>
+
+                </div>
+            </div>
+            <!-- </form> -->
+        </div>
+    </div>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+        integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>
